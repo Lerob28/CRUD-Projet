@@ -1,0 +1,87 @@
+.corps{
+		/*background-color: rgba(0, 0, 0, 0.2);*/
+		background-image:url(../Images/profil.jpg) ; 	
+		background-size: cover; 
+		background-position: fixed;
+	}
+
+	.form1{
+		background-color: rgba(0, 0, 0, 0.8);
+		padding: 0;
+		margin-top: 0;
+		color: white;
+	}
+	.form2{
+		color: white;
+		font-weight: bold;
+		padding: 0;
+		margin-top: 50px;
+		margin-bottom: 0;
+		background-color: rgba(0, 0, 0, 0.7);
+		padding-left: 160px;
+	}
+
+	input{
+		background-color: inherit;
+		border: none;
+		margin-left: 5px;
+		margin-bottom: 5px;
+		width: 200px;
+	}
+
+	.btn{
+		background:rgb(119 84 201) ;
+		border:none;
+		border-radius: 10px;
+		box-shadow: 0 2px ;
+	}
+
+	.essai{
+		background: inherit;
+		border: none;
+		color: aqua;
+		padding-bottom: 0px;
+		padding-top: -20px;
+	}
+	
+	#pp{
+		height: 190px; 
+		width: 190px; 
+	}
+
+
+	/*............*/
+.Navigation{
+		background-color: rgba(0, 0, 0, 0.2);
+		border-top: inherit;
+		border-right: inherit;
+		border-left: inherit;
+		border-bottom: 1px solid rgb(139 139 139);
+	}
+
+.My{
+		color: white;
+		font-family: Arial Black;
+	}
+
+	.Formular{
+		color: aqua;
+		font-family: Yu Gothic UI Semibold;
+	}	
+	
+.Menu{
+		color: white !important;
+	}
+
+
+@media only screen and (min-width: 993px){
+	.My{
+		margin-bottom: 10px;
+		font-size: 35px;
+	}
+
+	.Formular{
+		margin-bottom: 10px;
+		margin-left: 10px;
+		font-size: 35px;
+	}
